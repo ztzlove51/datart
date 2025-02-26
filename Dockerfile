@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:8-jdk-alpine-linuxarm64
 LABEL "author"="tl"
 RUN mkdir /datart
 COPY ./bin/ /datart/bin/
