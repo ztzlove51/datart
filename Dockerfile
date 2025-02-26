@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-slim
+FROM openjdk:8-jdk-alpine
 LABEL "author"="tl"
 RUN mkdir /datart
 COPY ./bin/ /datart/bin/
